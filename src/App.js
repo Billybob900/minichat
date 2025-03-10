@@ -10,7 +10,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+  apiKey: "AIzaSyDaVdZ1tfDO8bv4clvxxon-ytqGCDGQMJs",
+  authDomain: "minichat-7629c.firebaseapp.com",
+  projectId: "minichat-7629c",
+  storageBucket: "minichat-7629c.firebasestorage.app",
+  messagingSenderId: "874983232627",
+  appId: "1:874983232627:web:45b704f9f75d5b398e0606",
+  measurementId: "G-2LJ91LGNQC"
 })
 
 const auth = firebase.auth();
@@ -25,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>Not made by me!!</h1>
         <SignOut />
       </header>
 
